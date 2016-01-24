@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AssistiveTouch.h"
+#import "UserGuideViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    AssistiveTouch *assTouch;
+}
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
 

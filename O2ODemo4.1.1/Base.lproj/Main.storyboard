@@ -1,25 +1,223 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nLf-rZ-AMN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyMainView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hgc-VL-JTS">
+                                <rect key="frame" x="200" y="465" width="101" height="115"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="51" y="463" width="126" height="124"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="service.png" translatesAutoresizingMaskIntoConstraints="NO" id="DIj-05-8zz">
+                                <rect key="frame" x="318" y="477" width="81" height="91"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="206" y="459" width="120" height="132"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5副本.png" translatesAutoresizingMaskIntoConstraints="NO" id="zSp-Dl-nKl">
+                                <rect key="frame" x="209" y="208" width="151" height="160"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="98" y="201" width="177" height="199"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.png" translatesAutoresizingMaskIntoConstraints="NO" id="sIa-cn-8RI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="217" y="330" width="98" height="149"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9.png" translatesAutoresizingMaskIntoConstraints="NO" id="FCS-VD-twr">
+                                <rect key="frame" x="170" y="308" width="86" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="65" y="330" width="98" height="149"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="pBZ-Kz-WVz">
+                                <rect key="frame" x="235" y="453" width="143" height="140"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="107" y="415" width="179" height="219"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="sIa-cn-8RI"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="sIa-cn-8RI"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="Igy-RT-sFh"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="explainImage" destination="sIa-cn-8RI" id="Bkw-hO-GEb"/>
+                        <outlet property="favorableImage" destination="FCS-VD-twr" id="F2e-Cu-qtU"/>
+                        <outlet property="seaFoodImage" destination="zSp-Dl-nKl" id="xov-na-FSG"/>
+                        <outlet property="serviceImage" destination="DIj-05-8zz" id="BJF-aP-eQo"/>
+                        <outlet property="userImage" destination="Hgc-VL-JTS" id="F0N-fs-hLJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-522.75" y="-160.125"/>
+        </scene>
+        <!--User Guide View Controller-->
+        <scene sceneID="ob2-Sb-e7T">
+            <objects>
+                <viewController id="nLf-rZ-AMN" customClass="UserGuideViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SHl-Lt-G67"/>
+                        <viewControllerLayoutGuide type="bottom" id="AhC-qr-hkV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="So0-Fd-K6o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="acs-4w-JZx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="294" y="-170.25"/>
+        </scene>
+        <!--SeaFoodView-->
+        <scene sceneID="mdb-De-k4g">
+            <objects>
+                <viewController storyboardIdentifier="SeaFoodViewController" title="SeaFoodView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KmR-mR-8P1" customClass="SeaFoodViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g8B-rD-Ucq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Da7-gY-1VY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xqi-8N-1xC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="WMQ-qN-08C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qiU-Lo-qkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="543"/>
+        </scene>
+        <!--FavorableView-->
+        <scene sceneID="BxT-4w-h5g">
+            <objects>
+                <viewController storyboardIdentifier="FavorableViewController" title="FavorableView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zCk-q5-cMQ" customClass="FavorableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Umk-TU-kJl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q6r-Sd-775"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="w3p-yO-xBr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="IJW-kP-er5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sn1-on-CDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123.5" y="-225.75"/>
+        </scene>
+        <!--Explain View Controller-->
+        <scene sceneID="U26-ax-NND">
+            <objects>
+                <viewController storyboardIdentifier="ExplainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3dm-nl-nEI" customClass="ExplainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ily-Pg-THW"/>
+                        <viewControllerLayoutGuide type="bottom" id="FCL-9k-kFF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gtx-GL-Cnw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3n-fv-VWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1831.5" y="-241.5"/>
+        </scene>
+        <!--UserView-->
+        <scene sceneID="6o8-XI-3j8">
+            <objects>
+                <viewController storyboardIdentifier="UserViewController" title="UserView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gxe-By-wxf" customClass="UserViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b0p-bv-86j"/>
+                        <viewControllerLayoutGuide type="bottom" id="v5r-Ah-tK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dSJ-0R-ey9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AdV-EM-D8S">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="UserView" id="EVX-Rs-ySJ"/>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="44"/>
+                                </variation>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AdV-EM-D8S"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="AdV-EM-D8S"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfK-Bf-KaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1185" y="503.25"/>
+        </scene>
+        <!--ServiceView-->
+        <scene sceneID="nNh-wx-pXo">
+            <objects>
+                <viewController storyboardIdentifier="ServiceViewController" title="ServiceView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oiy-jV-6Ei" customClass="ServiceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3TV-bN-8A7"/>
+                        <viewControllerLayoutGuide type="bottom" id="C7m-mC-bG4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UuK-Oi-n3y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="p3z-JO-pQX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpv-Sa-3OT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="503.25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="5副本.png" width="452" height="544"/>
+        <image name="8.png" width="342" height="522"/>
+        <image name="9.png" width="342" height="522"/>
+        <image name="line.png" width="452" height="544"/>
+        <image name="service.png" width="452" height="544"/>
+        <image name="user.png" width="452" height="544"/>
+    </resources>
 </document>
