@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F308FD41C16B083008CED3B /* ShouYeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AC3A81C1181A300B06104 /* ShouYeView.m */; settings = {ASSET_TAGS = (); }; };
-		3F4327EC1C0E896F00FA31D3 /* gouwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327E81C0E896F00FA31D3 /* gouwu.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327ED1C0E896F00FA31D3 /* shouyebeijing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327E91C0E896F00FA31D3 /* shouyebeijing.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327EE1C0E896F00FA31D3 /* shiyongshuoming.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327EA1C0E896F00FA31D3 /* shiyongshuoming.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327EF1C0E896F00FA31D3 /* youhuixinxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327EB1C0E896F00FA31D3 /* youhuixinxi.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327F81C0E8B5200FA31D3 /* gouwuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4327F71C0E8B5200FA31D3 /* gouwuView.m */; settings = {ASSET_TAGS = (); }; };
-		3F4327FC1C0E8CAB00FA31D3 /* shuxian.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327F91C0E8CAB00FA31D3 /* shuxian.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327FD1C0E8CAB00FA31D3 /* kefu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FA1C0E8CAB00FA31D3 /* kefu.png */; settings = {ASSET_TAGS = (); }; };
-		3F4327FE1C0E8CAB00FA31D3 /* gerenzhongxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FB1C0E8CAB00FA31D3 /* gerenzhongxin.png */; settings = {ASSET_TAGS = (); }; };
-		3F4328011C0E8FB100FA31D3 /* jiazai1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FF1C0E8FB100FA31D3 /* jiazai1.png */; settings = {ASSET_TAGS = (); }; };
-		3F4328021C0E8FB100FA31D3 /* jiazai2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4328001C0E8FB100FA31D3 /* jiazai2.png */; settings = {ASSET_TAGS = (); }; };
-		3F4328051C0E92A400FA31D3 /* kefuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4328041C0E92A400FA31D3 /* kefuView.m */; settings = {ASSET_TAGS = (); }; };
+		3F308FD41C16B083008CED3B /* ShouYeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3AC3A81C1181A300B06104 /* ShouYeView.m */; };
+		3F4327EC1C0E896F00FA31D3 /* gouwu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327E81C0E896F00FA31D3 /* gouwu.png */; };
+		3F4327ED1C0E896F00FA31D3 /* shouyebeijing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327E91C0E896F00FA31D3 /* shouyebeijing.png */; };
+		3F4327EE1C0E896F00FA31D3 /* shiyongshuoming.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327EA1C0E896F00FA31D3 /* shiyongshuoming.png */; };
+		3F4327EF1C0E896F00FA31D3 /* youhuixinxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327EB1C0E896F00FA31D3 /* youhuixinxi.png */; };
+		3F4327F81C0E8B5200FA31D3 /* gouwuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4327F71C0E8B5200FA31D3 /* gouwuView.m */; };
+		3F4327FC1C0E8CAB00FA31D3 /* shuxian.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327F91C0E8CAB00FA31D3 /* shuxian.png */; };
+		3F4327FD1C0E8CAB00FA31D3 /* kefu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FA1C0E8CAB00FA31D3 /* kefu.png */; };
+		3F4327FE1C0E8CAB00FA31D3 /* gerenzhongxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FB1C0E8CAB00FA31D3 /* gerenzhongxin.png */; };
+		3F4328011C0E8FB100FA31D3 /* jiazai1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4327FF1C0E8FB100FA31D3 /* jiazai1.png */; };
+		3F4328021C0E8FB100FA31D3 /* jiazai2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4328001C0E8FB100FA31D3 /* jiazai2.png */; };
+		3F4328051C0E92A400FA31D3 /* kefuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4328041C0E92A400FA31D3 /* kefuView.m */; };
 		3F45E98D1C0E800D0006F103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45E98C1C0E800D0006F103 /* main.m */; };
 		3F45E9901C0E800D0006F103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45E98F1C0E800D0006F103 /* AppDelegate.m */; };
 		3F45E9961C0E800D0006F103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45E9941C0E800D0006F103 /* Main.storyboard */; };
 		3F45E9981C0E800D0006F103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F45E9971C0E800D0006F103 /* Assets.xcassets */; };
 		3F45E99B1C0E800D0006F103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45E9991C0E800D0006F103 /* LaunchScreen.storyboard */; };
-		3F45E9A31C0E835E0006F103 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F45E9A21C0E835E0006F103 /* 启动页.jpg */; settings = {ASSET_TAGS = (); }; };
-		3F4B2AA51C159D5700320DDC /* YouhuixinxiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AA41C159D5700320DDC /* YouhuixinxiView.m */; settings = {ASSET_TAGS = (); }; };
-		3F4B2AA81C15A0DA00320DDC /* ShiYongShuoMingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AA71C15A0DA00320DDC /* ShiYongShuoMingView.m */; settings = {ASSET_TAGS = (); }; };
-		3F4B2AB11C15A1F300320DDC /* GeRenZhongXinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AB01C15A1F300320DDC /* GeRenZhongXinView.m */; settings = {ASSET_TAGS = (); }; };
-		3F4B2AB31C15A40E00320DDC /* jiazaishibai.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B2AB21C15A40E00320DDC /* jiazaishibai.png */; settings = {ASSET_TAGS = (); }; };
-		3FC51D251C1039CB000459AD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC51D241C1039CB000459AD /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		3F45E9A31C0E835E0006F103 /* 启动页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F45E9A21C0E835E0006F103 /* 启动页.jpg */; };
+		3F4B2AA51C159D5700320DDC /* YouhuixinxiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AA41C159D5700320DDC /* YouhuixinxiView.m */; };
+		3F4B2AA81C15A0DA00320DDC /* ShiYongShuoMingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AA71C15A0DA00320DDC /* ShiYongShuoMingView.m */; };
+		3F4B2AB11C15A1F300320DDC /* GeRenZhongXinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4B2AB01C15A1F300320DDC /* GeRenZhongXinView.m */; };
+		3F4B2AB31C15A40E00320DDC /* jiazaishibai.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4B2AB21C15A40E00320DDC /* jiazaishibai.png */; };
+		3FC51D251C1039CB000459AD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC51D241C1039CB000459AD /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -349,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = haidaoshengxian_pro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WYL.haidaoshengxian-pro";
@@ -360,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = haidaoshengxian_pro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WYL.haidaoshengxian-pro";
